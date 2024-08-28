@@ -61,7 +61,7 @@ def wait_running_game(camera, timeout:float = .0) -> None:
 def main():
 	""" Autoclicker impl """
 
-	amount_of_games = 1
+	amount_of_games = 25
 	if len(sys.argv) > 1:
 		amount_of_games = int(sys.argv[1])
 
